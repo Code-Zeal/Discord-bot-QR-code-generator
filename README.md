@@ -37,6 +37,11 @@ The user will send a command in the Discord chat with an argument. The argument,
 
 ---
 
+## Guides:
+
+[Discordjs.guide](https://discordjs.guide/)
+For me this is the best guide to get started with discord bots.
+
 <a id="readme-en-español"></a>
 
 README (ESPAÑOL)
@@ -74,3 +79,8 @@ El usuario enviará un comando en el chat de Discord con un argumento. El argume
 
 - Este proyecto puede completarse utilizando TypeScript para un mejor manejo.
 - Puedes utilizar la API gratuita de Google para la generación de códigos QR.
+
+## Guia
+
+[Discordjs.guide](https://discordjs.guide/)
+Para mi es la mejor guía para empezar con bots de discord.
