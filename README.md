@@ -1,5 +1,5 @@
 <a id="english-readme"></a>
-_README (ENGLISH)_
+README (ENGLISH)
 
 # Discord QR Code Generator Bot
 
@@ -7,35 +7,59 @@ _README (ENGLISH)_
 
 ## Introduction
 
-QR codes have gained widespread usage across many countries in recent years. With the aid of bots, QR codes can be easily generated. This project serves to educate on using Discord bots to convert command arguments into outputs such as QR codes, eliminating the need to search for a QR code generation website.
+QR codes have become ubiquitous in many countries in recent years. With the help of bots, QR codes can be easily generated. Through this project, you will learn to use Discord bots to convert command arguments into outputs like QR codes, without the need to search for a QR code generation website. During this project, I gained valuable experience in implementing DiscordJS and utilizing the goqr.me API.
+
+## Usage
+
+1. Clone the repository to your local machine using the command: `git clone https://github.com/Code-Zeal/Discord-bot-QR-code-generator`.
+2. Install the required dependencies using one of the following commands based on your preferred package manager:
+   - For npm: `npm install`
+   - For bun: `bun install`
+   - For Yarn: `yarn install`
+   - For pnpm: `pnpm install`
+3. Configure the `config.json` file with your Discord bot token and any other necessary parameters.
+4. Run the `deploy-commands.js` script to deploy the slash commands to your Discord server.
+5. Finally, execute the `index.js` file to start the Discord QR Code Generator Bot.
 
 ## Requirements
 
-The user will input a command in the Discord chat along with an argument. The provided argument will be converted into a QR code and subsequently sent back to the user.
+The user will send a command in the Discord chat with an argument. The argument, converted into a QR code, will be sent back to the user.
 
 ## Additional Challenge
 
-- Implement a slash command to prompt the bot to generate a QR code.
-- Enable users to customize the color and/or size of the QR code.
+- Add a slash command that triggers the bot to generate a QR code.
+- Allow users to customize the color and/or size of the QR code.
 
 ## Suggested Implementation
 
-- TypeScript is recommended for smoother handling.
-- Utilize Google's free API for QR code generation.
+- This project can be completed using TypeScript for smoother handling.
+- You can leverage Google's free API for QR code generation.
 
 ---
 
 <a id="readme-en-español"></a>
 
-_README (ESPAÑOL)_
+README (ESPAÑOL)
 
 # Bot Generador de Códigos QR para Discord
 
-[English Version](#english-readme)
+[English version](#english-readme)
 
-## Introduction
+## Introducción
 
-Los códigos QR se han vuelto omnipresentes en muchos países en los últimos años. Con la ayuda de bots, los códigos QR pueden generarse fácilmente. A través de este proyecto, aprenderás a utilizar bots de Discord para convertir argumentos de comandos en salidas como códigos QR, sin necesidad de buscar un sitio web de generación de códigos QR.
+Los códigos QR se han vuelto omnipresentes en muchos países en los últimos años. Con la ayuda de bots, los códigos QR pueden generarse fácilmente. A través de este proyecto, aprenderás a utilizar bots de Discord para convertir argumentos de comandos en salidas como códigos QR, sin necesidad de buscar un sitio web de generación de códigos QR. Durante este proyecto, adquirí muchos conocimientos valiosos y desarrollé nuevas habilidades. Aprendí a integrar DiscordJS y la API de goqr.me, lo que me permitió comprender mejor el funcionamiento de la generación de códigos QR y la interacción con bots en Discord.
+
+## Uso
+
+1. Clona el repositorio en tu máquina local usando el comando: `git clone https://github.com/Code-Zeal/Discord-bot-QR-code-generator`.
+2. Instala las dependencias necesarias utilizando uno de los siguientes comandos según tu administrador de paquetes preferido:
+   - Para npm: `npm install`
+   - Para bun: `bun install`
+   - Para Yarn: `yarn install`
+   - Para pnpm: `pnpm install`
+3. Configura el archivo `config.json` con el token de tu bot de Discord y cualquier otro parámetro necesario.
+4. Ejecuta el script `deploy-commands.js` para desplegar los comandos de barra inclinada en tu servidor de Discord.
+5. Finalmente, ejecuta el archivo `index.js` para iniciar el Bot Generador de Códigos QR para Discord.
 
 ## Requisitos
 
@@ -49,4 +73,4 @@ El usuario enviará un comando en el chat de Discord con un argumento. El argume
 ## Implementación Sugerida
 
 - Este proyecto puede completarse utilizando TypeScript para un mejor manejo.
-- Puedes usar la API gratuita de Google para generar los códigos QR.
+- Puedes utilizar la API gratuita de Google para la generación de códigos QR.
